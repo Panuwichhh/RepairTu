@@ -1,0 +1,39 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/api/login
+Content-Type: application/json
+// front end login json model use student id 
+
+{
+    "studentId": "1234567890",
+    "password": "1234"
+}
+
+###
+
+GET http://localhost:3000/api/upload/671a7c136f2983b49fec5b28
+//see requests list
+
+###
+
+GET  http://localhost:3000/api/upload/672e26ca91f83ed2d660ada0
+
+###
+POST http://localhost:3000/api/login/token 
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmVhNzE3Y2ZjNDI5Y2E3ZjViNGQxMDciLCJ1c2VybmFtZSI6IuC4iuC4reC4muC5gOC4o-C4teC4ouC4mSDguYDguKPguLXguKLguJnguJTguLUiLCJpYXQiOjE3MjY2NDM2OTZ9.vpLSdHUEMMyVV8P45Te-azcc_eyOT3NShyua9JLEt_E"
+}
+
+###
+GET http://localhost:3000/api/upload/getUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzFhN2MxMzZmMjk4M2I0OWZlYzViMjgiLCJ1c2VybmFtZSI6InNhbSIsInN0dWRlbnRJZCI6IjEyMzQ1Njc4OTAiLCJpYXQiOjE3MzA5MDUwNjQsImV4cCI6MTczMDk5MTQ2NH0.2UG33ty9OD8IRmLtJFKo5ADeMITxJ8RbSt-I0TEPsGg
+
+###
+POST http://localhost:3000/api/logout
+
+###
+GET http://localhost:3000/api/uploadAdmin/672b9c042e2367f8e317469b
