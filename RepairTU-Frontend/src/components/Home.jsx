@@ -41,7 +41,7 @@ function Home() {
 
                         <div className="flex flex-col items-center w-full h-96 justify-center ">
                             <i className="text-[10rem] sm:text-[15rem] xl:text-[20rem] text-[#340000] fa-solid fa-screwdriver-wrench mb-5"></i>
-                            <Link onClick={handleClick} ><button className="w-44 h-12 sm:w-60 sm:h-14 font-black m-5 bg-[#E20B0B] text-white rounded-3xl hover:opacity-80 hover:text-yellow-400 shadow-lg shadow-black/35">GET STARTED</button></Link>
+                            <Link onClick={handleClick} ><button className="hover:scale-110  duration-500 w-44 h-12 sm:w-60 sm:h-14 font-black m-5 bg-[#E20B0B] text-white rounded-3xl hover:opacity-80 hover:text-orange-300 shadow-lg shadow-black/35">GET STARTED</button></Link>
                         </div>
                     </div>
                 </div>
